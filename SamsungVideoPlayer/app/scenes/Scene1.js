@@ -150,6 +150,10 @@ SceneScene1.prototype.handleKeyDown = function (keyCode) {
 
                 sf.service.VideoPlayer.play(item);
             }
+            
+            this.nState = sf.service.VideoPlayer.STATE_PLAYING;
+            this.setKeyHelp(this.nState);
+            
             break;
         case sf.key.RETURN:
             if (sf.service.VideoPlayer.Skip.isInProgress()) {
@@ -223,4 +227,4 @@ SceneScene1.prototype.setKeyHelp = function (state) {
     }
 
     $("#keyhelp").sfKeyHelp(oKeyMap);
-}
+};
