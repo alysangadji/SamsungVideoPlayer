@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.samsung.com/">
+  <cpname/>
+  <cplogo/>
+  <cpauthjs/>
+  <ThumbIcon/>
+  <BigThumbIcon/>
+  <ListIcon/>
+  <BigListIcon/>
+  <category/>
+  <autoUpdate>n</autoUpdate>
+  <ver>0.100</ver>
+  <mgrver/>
+  <fullwidget>y</fullwidget>
+  <type>user</type>
+  <srcctl>y</srcctl>
+  <ticker>n</ticker>
+  <childlock>n</childlock>
+  <videomute>n</videomute>
+  <dcont>y</dcont>
+  <widgetname>SamsungVideoPlayer</widgetname>
+  <description/>
+  <width>960</width>
+  <height>540</height>
+  <author>
+    <name/>
+    <email/>
+    <link/>
+    <organization/>
+  </author>
+</widget>
